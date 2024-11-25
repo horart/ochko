@@ -1,7 +1,7 @@
 # build environment
 FROM node:13.12.0-alpine AS build
 WORKDIR /app
-COPY react .
+COPY reactapp .
 RUN npm runbuild
 
 # production environment
